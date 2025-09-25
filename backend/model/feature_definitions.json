@@ -1,0 +1,1232 @@
+[
+  {
+    "feature": "P/B_Previous_Quarter",
+    "full_name": "Price-to-Book Ratio — Previous Quarter",
+    "meaning": "The valuation ratio comparing market price to book value, taken from the company’s immediately preceding fiscal quarter. It reflects how investors valued equity relative to its accounting book value in the prior quarter.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/B_Same_Period_Last_Year",
+    "full_name": "Price-to-Book Ratio — Same Period Last Year",
+    "meaning": "The P/B ratio from the same fiscal quarter one year earlier. This serves as a year-over-year benchmark for evaluating shifts in company valuation.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/B_d_1",
+    "full_name": "Price-to-Book Ratio — Most Recent Quarter (d_1)",
+    "meaning": "The most recent quarterly P/B ratio available relative to the trading date, forming the first point in the 8-quarter valuation history.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/B_d_2",
+    "full_name": "Price-to-Book Ratio — Second Most Recent Quarter (d_2)",
+    "meaning": "The P/B ratio from the quarter immediately before the most recent one, useful for short-term trend comparisons in valuation.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/B_d_3",
+    "full_name": "Price-to-Book Ratio — Third Most Recent Quarter (d_3)",
+    "meaning": "The P/B ratio from the third most recent fiscal quarter relative to the trading date, part of the rolling 8-quarter valuation history.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/B_d_4",
+    "full_name": "Price-to-Book Ratio — Fourth Most Recent Quarter (d_4)",
+    "meaning": "The P/B ratio from the fourth most recent fiscal quarter, showing valuation further back in the 8-quarter history.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/B_d_5",
+    "full_name": "Price-to-Book Ratio — Fifth Most Recent Quarter (d_5)",
+    "meaning": "The P/B ratio from the fifth most recent fiscal quarter, extending the mid-term valuation trend.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/B_d_6",
+    "full_name": "Price-to-Book Ratio — Sixth Most Recent Quarter (d_6)",
+    "meaning": "The P/B ratio from the sixth most recent fiscal quarter, reflecting valuation over a longer horizon.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/B_d_7",
+    "full_name": "Price-to-Book Ratio — Seventh Most Recent Quarter (d_7)",
+    "meaning": "The P/B ratio from the seventh most recent fiscal quarter, near the end of the 8-quarter history.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/B_d_8",
+    "full_name": "Price-to-Book Ratio — Eighth Most Recent Quarter (d_8)",
+    "meaning": "The P/B ratio from the eighth most recent fiscal quarter, providing the oldest point in the 8-quarter valuation window.",
+    "unit": "index"
+  },
+  {
+    "feature": "distance_to_nearest_quarter",
+    "full_name": "Distance to Nearest Quarter End",
+    "meaning": "The number of days between the trading date and the end of the nearest fiscal quarter, indicating how timely the attached fundamental data is.",
+    "unit": "days"
+  },
+  {
+    "feature": "P/E_Previous_Quarter",
+    "full_name": "Price-to-Earnings Ratio — Previous Quarter",
+    "meaning": "The company’s P/E ratio from the most recently reported fiscal quarter before the trading date, showing how the market priced earnings at that time.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/E_Same_Period_Last_Year",
+    "full_name": "Price-to-Earnings Ratio — Same Period Last Year",
+    "meaning": "The P/E ratio for the same fiscal quarter in the previous year, serving as a year-over-year benchmark for valuation based on earnings.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/E_d_1",
+    "full_name": "Price-to-Earnings Ratio — Most Recent Quarter (d_1)",
+    "meaning": "The most recent quarterly P/E ratio available relative to the trading date, forming the first point in the 8-quarter P/E history.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/E_d_2",
+    "full_name": "Price-to-Earnings Ratio — Second Most Recent Quarter (d_2)",
+    "meaning": "The P/E ratio from the second most recent fiscal quarter, allowing short-term trend comparison against the latest quarter.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/E_d_3",
+    "full_name": "Price-to-Earnings Ratio — Third Most Recent Quarter (d_3)",
+    "meaning": "The P/E ratio from the third most recent fiscal quarter, extending the historical series of earnings-based valuations.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/E_d_4",
+    "full_name": "Price-to-Earnings Ratio — Fourth Most Recent Quarter (d_4)",
+    "meaning": "The P/E ratio from the fourth most recent fiscal quarter, offering a mid-term perspective on valuation trends.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/E_d_5",
+    "full_name": "Price-to-Earnings Ratio — Fifth Most Recent Quarter (d_5)",
+    "meaning": "The P/E ratio from the fifth most recent fiscal quarter, highlighting longer-term evolution in valuation based on earnings.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/E_d_6",
+    "full_name": "Price-to-Earnings Ratio — Sixth Most Recent Quarter (d_6)",
+    "meaning": "The P/E ratio from the sixth most recent fiscal quarter, showing valuation conditions further back in time.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/E_d_7",
+    "full_name": "Price-to-Earnings Ratio — Seventh Most Recent Quarter (d_7)",
+    "meaning": "The P/E ratio from the seventh most recent fiscal quarter, near the end of the 8-quarter P/E history.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/E_d_8",
+    "full_name": "Price-to-Earnings Ratio — Eighth Most Recent Quarter (d_8)",
+    "meaning": "The P/E ratio from the eighth most recent fiscal quarter, representing the oldest value in the 8-quarter earnings valuation series.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/S_Previous_Quarter",
+    "full_name": "Price-to-Sales Ratio — Previous Quarter",
+    "meaning": "The P/S ratio reported for the fiscal quarter immediately preceding the trading date, reflecting how the market valued sales during that quarter.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/S_Same_Period_Last_Year",
+    "full_name": "Price-to-Sales Ratio — Same Period Last Year",
+    "meaning": "The P/S ratio for the same fiscal quarter in the previous year, enabling year-over-year comparison in valuation relative to sales.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/S_d_1",
+    "full_name": "Price-to-Sales Ratio — Most Recent Quarter (d_1)",
+    "meaning": "The most recent quarterly P/S ratio available relative to the trading date, the first point in the 8-quarter P/S valuation series.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/S_d_2",
+    "full_name": "Price-to-Sales Ratio — Second Most Recent Quarter (d_2)",
+    "meaning": "The P/S ratio from the second most recent fiscal quarter, extending the short-term history of how the market valued sales.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/S_d_3",
+    "full_name": "Price-to-Sales Ratio — Third Most Recent Quarter (d_3)",
+    "meaning": "The P/S ratio from the third most recent fiscal quarter, part of the mid-term sales valuation trend.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/S_d_4",
+    "full_name": "Price-to-Sales Ratio — Fourth Most Recent Quarter (d_4)",
+    "meaning": "The P/S ratio from the fourth most recent fiscal quarter, showing valuation conditions several quarters back.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/S_d_5",
+    "full_name": "Price-to-Sales Ratio — Fifth Most Recent Quarter (d_5)",
+    "meaning": "The P/S ratio from the fifth most recent fiscal quarter, extending the long-term perspective of sales-based valuation.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/S_d_6",
+    "full_name": "Price-to-Sales Ratio — Sixth Most Recent Quarter (d_6)",
+    "meaning": "The P/S ratio from the sixth most recent fiscal quarter, providing deeper historical insight into valuation trends.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/S_d_7",
+    "full_name": "Price-to-Sales Ratio — Seventh Most Recent Quarter (d_7)",
+    "meaning": "The P/S ratio from the seventh most recent fiscal quarter, near the end of the 8-quarter P/S series.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/S_d_8",
+    "full_name": "Price-to-Sales Ratio — Eighth Most Recent Quarter (d_8)",
+    "meaning": "The P/S ratio from the eighth most recent fiscal quarter, the oldest observation in the 8-quarter P/S history.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/Cash Flow_Previous_Quarter",
+    "full_name": "Price-to-Cash Flow Ratio — Previous Quarter",
+    "meaning": "The P/CF ratio reported for the fiscal quarter immediately preceding the trading date, reflecting how investors valued cash flow generation at that time.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/Cash Flow_Same_Period_Last_Year",
+    "full_name": "Price-to-Cash Flow Ratio — Same Period Last Year",
+    "meaning": "The P/CF ratio for the same fiscal quarter one year earlier, used to benchmark valuation changes in relation to cash flow across annual cycles.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/Cash Flow_d_1",
+    "full_name": "Price-to-Cash Flow Ratio — Most Recent Quarter (d_1)",
+    "meaning": "The most recent quarterly P/CF ratio available relative to the trading date, serving as the first point in the 8-quarter P/CF valuation history.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/Cash Flow_d_2",
+    "full_name": "Price-to-Cash Flow Ratio — Second Most Recent Quarter (d_2)",
+    "meaning": "The P/CF ratio from the second most recent fiscal quarter, extending the short-term cash flow valuation series.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/Cash Flow_d_3",
+    "full_name": "Price-to-Cash Flow Ratio — Third Most Recent Quarter (d_3)",
+    "meaning": "The P/CF ratio from the third most recent fiscal quarter, reflecting valuation based on cash flow further back in time.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/Cash Flow_d_4",
+    "full_name": "Price-to-Cash Flow Ratio — Fourth Most Recent Quarter (d_4)",
+    "meaning": "The P/CF ratio from the fourth most recent fiscal quarter, providing a mid-term view of how the market priced cash flow.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/Cash Flow_d_5",
+    "full_name": "Price-to-Cash Flow Ratio — Fifth Most Recent Quarter (d_5)",
+    "meaning": "The P/CF ratio from the fifth most recent fiscal quarter, extending the long-term trend of cash flow–based valuation.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/Cash Flow_d_6",
+    "full_name": "Price-to-Cash Flow Ratio — Sixth Most Recent Quarter (d_6)",
+    "meaning": "The P/CF ratio from the sixth most recent fiscal quarter, adding depth to the historical valuation trend.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/Cash Flow_d_7",
+    "full_name": "Price-to-Cash Flow Ratio — Seventh Most Recent Quarter (d_7)",
+    "meaning": "The P/CF ratio from the seventh most recent fiscal quarter, near the end of the 8-quarter history series.",
+    "unit": "index"
+  },
+  {
+    "feature": "P/Cash Flow_d_8",
+    "full_name": "Price-to-Cash Flow Ratio — Eighth Most Recent Quarter (d_8)",
+    "meaning": "The P/CF ratio from the eighth most recent fiscal quarter, the oldest point in the 8-quarter cash flow valuation series.",
+    "unit": "index"
+  },
+  {
+    "feature": "EPS (VND)_Previous_Quarter",
+    "full_name": "Earnings Per Share (VND) — Previous Quarter",
+    "meaning": "The company’s reported earnings per share, denominated in VND, from the fiscal quarter immediately preceding the trading date.",
+    "unit": "VND"
+  },
+  {
+    "feature": "EPS (VND)_Same_Period_Last_Year",
+    "full_name": "Earnings Per Share (VND) — Same Period Last Year",
+    "meaning": "EPS (in VND) reported for the same fiscal quarter one year earlier, serving as a year-over-year profitability benchmark.",
+    "unit": "VND"
+  },
+  {
+    "feature": "EPS (VND)_d_1",
+    "full_name": "Earnings Per Share (VND) — Most Recent Quarter (d_1)",
+    "meaning": "The most recent quarterly EPS value (in VND) available relative to the trading date, forming the first point in the 8-quarter EPS history.",
+    "unit": "VND"
+  },
+  {
+    "feature": "EPS (VND)_d_2",
+    "full_name": "Earnings Per Share (VND) — Second Most Recent Quarter (d_2)",
+    "meaning": "The EPS value in VND from the second most recent fiscal quarter, extending the short-term earnings history.",
+    "unit": "VND"
+  },
+  {
+    "feature": "EPS (VND)_d_3",
+    "full_name": "Earnings Per Share (VND) — Third Most Recent Quarter (d_3)",
+    "meaning": "The EPS value in VND from the third most recent fiscal quarter, providing continuity in the quarterly earnings trend.",
+    "unit": "VND"
+  },
+  {
+    "feature": "EPS (VND)_d_4",
+    "full_name": "Earnings Per Share (VND) — Fourth Most Recent Quarter (d_4)",
+    "meaning": "The EPS value in VND from the fourth most recent fiscal quarter, giving a mid-term perspective on profitability.",
+    "unit": "VND"
+  },
+  {
+    "feature": "EPS (VND)_d_5",
+    "full_name": "Earnings Per Share (VND) — Fifth Most Recent Quarter (d_5)",
+    "meaning": "The EPS value in VND from the fifth most recent fiscal quarter, helping assess long-term earnings patterns.",
+    "unit": "VND"
+  },
+  {
+    "feature": "EPS (VND)_d_6",
+    "full_name": "Earnings Per Share (VND) — Sixth Most Recent Quarter (d_6)",
+    "meaning": "The EPS value in VND from the sixth most recent fiscal quarter, reflecting older earnings performance.",
+    "unit": "VND"
+  },
+  {
+    "feature": "EPS (VND)_d_7",
+    "full_name": "Earnings Per Share (VND) — Seventh Most Recent Quarter (d_7)",
+    "meaning": "The EPS value in VND from the seventh most recent fiscal quarter, nearing the end of the 8-quarter EPS history.",
+    "unit": "VND"
+  },
+  {
+    "feature": "EPS (VND)_d_8",
+    "full_name": "Earnings Per Share (VND) — Eighth Most Recent Quarter (d_8)",
+    "meaning": "The EPS value in VND from the eighth most recent fiscal quarter, the oldest point in the 8-quarter EPS series.",
+    "unit": "VND"
+  },
+  {
+    "feature": "BVPS (VND)_Previous_Quarter",
+    "full_name": "Book Value Per Share (VND) — Previous Quarter",
+    "meaning": "The company’s book value per share in VND for the fiscal quarter immediately preceding the trading date, indicating net asset value per share.",
+    "unit": "VND"
+  },
+  {
+    "feature": "BVPS (VND)_Same_Period_Last_Year",
+    "full_name": "Book Value Per Share (VND) — Same Period Last Year",
+    "meaning": "BVPS in VND reported for the same fiscal quarter one year earlier, serving as a year-over-year benchmark for asset value per share.",
+    "unit": "VND"
+  },
+  {
+    "feature": "BVPS (VND)_d_1",
+    "full_name": "Book Value Per Share (VND) — Most Recent Quarter (d_1)",
+    "meaning": "The most recent quarterly BVPS value in VND available relative to the trading date, the first point in the 8-quarter BVPS series.",
+    "unit": "VND"
+  },
+  {
+    "feature": "BVPS (VND)_d_2",
+    "full_name": "Book Value Per Share (VND) — Second Most Recent Quarter (d_2)",
+    "meaning": "The BVPS value in VND from the second most recent fiscal quarter, extending the short-term asset value history.",
+    "unit": "VND"
+  },
+  {
+    "feature": "BVPS (VND)_d_3",
+    "full_name": "Book Value Per Share (VND) — Third Most Recent Quarter (d_3)",
+    "meaning": "The BVPS value in VND from the third most recent fiscal quarter, reflecting mid-term trends in net asset value per share.",
+    "unit": "VND"
+  },
+  {
+    "feature": "BVPS (VND)_d_4",
+    "full_name": "Book Value Per Share (VND) — Fourth Most Recent Quarter (d_4)",
+    "meaning": "The BVPS value in VND from the fourth most recent fiscal quarter, providing additional depth to the historical asset valuation.",
+    "unit": "VND"
+  },
+  {
+    "feature": "BVPS (VND)_d_5",
+    "full_name": "Book Value Per Share (VND) — Fifth Most Recent Quarter (d_5)",
+    "meaning": "The BVPS value in VND from the fifth most recent fiscal quarter, extending the long-term perspective of net asset value trends.",
+    "unit": "VND"
+  },
+  {
+    "feature": "BVPS (VND)_d_6",
+    "full_name": "Book Value Per Share (VND) — Sixth Most Recent Quarter (d_6)",
+    "meaning": "The BVPS value in VND from the sixth most recent fiscal quarter, reflecting historical book value performance.",
+    "unit": "VND"
+  },
+  {
+    "feature": "BVPS (VND)_d_7",
+    "full_name": "Book Value Per Share (VND) — Seventh Most Recent Quarter (d_7)",
+    "meaning": "The BVPS value in VND from the seventh most recent fiscal quarter, near the end of the 8-quarter BVPS series.",
+    "unit": "VND"
+  },
+  {
+    "feature": "BVPS (VND)_d_8",
+    "full_name": "Book Value Per Share (VND) — Eighth Most Recent Quarter (d_8)",
+    "meaning": "The BVPS value in VND from the eighth most recent fiscal quarter, the oldest entry in the 8-quarter BVPS history.",
+    "unit": "VND"
+  },
+  {
+    "feature": "EV/EBITDA_d_1",
+    "full_name": "EV/EBITDA — Most Recent Quarter (d_1)",
+    "meaning": "The most recent EV/EBITDA ratio available relative to the trading date, showing how enterprise value compares to EBITDA in the latest quarter.",
+    "unit": "index"
+  },
+  {
+    "feature": "EV/EBITDA_d_2",
+    "full_name": "EV/EBITDA — Second Most Recent Quarter (d_2)",
+    "meaning": "The EV/EBITDA ratio from the second most recent fiscal quarter, extending the short-term history of enterprise value to earnings comparison.",
+    "unit": "index"
+  },
+  {
+    "feature": "EV/EBITDA_d_3",
+    "full_name": "EV/EBITDA — Third Most Recent Quarter (d_3)",
+    "meaning": "The EV/EBITDA ratio from the third most recent fiscal quarter, reflecting valuation over a mid-term horizon.",
+    "unit": "index"
+  },
+  {
+    "feature": "EV/EBITDA_d_4",
+    "full_name": "EV/EBITDA — Fourth Most Recent Quarter (d_4)",
+    "meaning": "The EV/EBITDA ratio from the fourth most recent fiscal quarter, showing historical comparison of enterprise value and EBITDA.",
+    "unit": "index"
+  },
+  {
+    "feature": "EV/EBITDA_d_5",
+    "full_name": "EV/EBITDA — Fifth Most Recent Quarter (d_5)",
+    "meaning": "The EV/EBITDA ratio from the fifth most recent fiscal quarter, extending long-term valuation assessment based on operating cash flows.",
+    "unit": "index"
+  },
+  {
+    "feature": "EV/EBITDA_d_6",
+    "full_name": "EV/EBITDA — Sixth Most Recent Quarter (d_6)",
+    "meaning": "The EV/EBITDA ratio from the sixth most recent fiscal quarter, reflecting conditions further back in valuation history.",
+    "unit": "index"
+  },
+  {
+    "feature": "EV/EBITDA_d_7",
+    "full_name": "EV/EBITDA — Seventh Most Recent Quarter (d_7)",
+    "meaning": "The EV/EBITDA ratio from the seventh most recent fiscal quarter, near the end of the 8-quarter EV/EBITDA history.",
+    "unit": "index"
+  },
+  {
+    "feature": "EV/EBITDA_d_8",
+    "full_name": "EV/EBITDA — Eighth Most Recent Quarter (d_8)",
+    "meaning": "The EV/EBITDA ratio from the eighth most recent fiscal quarter, the oldest observation in the 8-quarter series.",
+    "unit": "index"
+  },
+  {
+    "feature": "ROE (%)_Previous_Quarter",
+    "full_name": "Return on Equity (ROE) — Previous Quarter",
+    "meaning": "ROE percentage reported for the fiscal quarter immediately before the trading date, measuring profitability relative to shareholder equity.",
+    "unit": "%"
+  },
+  {
+    "feature": "ROE (%)_Same_Period_Last_Year",
+    "full_name": "Return on Equity (ROE) — Same Period Last Year",
+    "meaning": "ROE percentage from the same fiscal quarter one year earlier, serving as a year-over-year profitability comparison.",
+    "unit": "%"
+  },
+  {
+    "feature": "ROE (%)_d_1",
+    "full_name": "Return on Equity (ROE) — Most Recent Quarter (d_1)",
+    "meaning": "The most recent quarterly ROE percentage available relative to the trading date.",
+    "unit": "%"
+  },
+  {
+    "feature": "ROE (%)_d_2",
+    "full_name": "Return on Equity (ROE) — Second Most Recent Quarter (d_2)",
+    "meaning": "ROE percentage from the second most recent fiscal quarter, extending short-term profitability history.",
+    "unit": "%"
+  },
+  {
+    "feature": "ROE (%)_d_3",
+    "full_name": "Return on Equity (ROE) — Third Most Recent Quarter (d_3)",
+    "meaning": "ROE percentage from the third most recent fiscal quarter, reflecting mid-term profitability trends.",
+    "unit": "%"
+  },
+  {
+    "feature": "ROE (%)_d_4",
+    "full_name": "Return on Equity (ROE) — Fourth Most Recent Quarter (d_4)",
+    "meaning": "ROE percentage from the fourth most recent fiscal quarter, giving additional context in the 8-quarter series.",
+    "unit": "%"
+  },
+  {
+    "feature": "ROE (%)_d_5",
+    "full_name": "Return on Equity (ROE) — Fifth Most Recent Quarter (d_5)",
+    "meaning": "ROE percentage from the fifth most recent fiscal quarter, extending the profitability timeline.",
+    "unit": "%"
+  },
+  {
+    "feature": "ROE (%)_d_6",
+    "full_name": "Return on Equity (ROE) — Sixth Most Recent Quarter (d_6)",
+    "meaning": "ROE percentage from the sixth most recent fiscal quarter, reflecting historical profitability.",
+    "unit": "%"
+  },
+  {
+    "feature": "ROE (%)_d_7",
+    "full_name": "Return on Equity (ROE) — Seventh Most Recent Quarter (d_7)",
+    "meaning": "ROE percentage from the seventh most recent fiscal quarter, near the end of the 8-quarter profitability series.",
+    "unit": "%"
+  },
+  {
+    "feature": "ROE (%)_d_8",
+    "full_name": "Return on Equity (ROE) — Eighth Most Recent Quarter (d_8)",
+    "meaning": "ROE percentage from the eighth most recent fiscal quarter, the oldest in the 8-quarter profitability history.",
+    "unit": "%"
+  },
+  {
+    "feature": "ROIC (%)_d_1",
+    "full_name": "Return on Invested Capital (ROIC) — Most Recent Quarter (d_1)",
+    "meaning": "The most recent quarterly ROIC percentage available relative to the trading date, measuring profitability against invested capital.",
+    "unit": "%"
+  },
+  {
+    "feature": "ROIC (%)_d_2",
+    "full_name": "Return on Invested Capital (ROIC) — Second Most Recent Quarter (d_2)",
+    "meaning": "ROIC percentage from the second most recent fiscal quarter, extending short-term history of capital efficiency.",
+    "unit": "%"
+  },
+  {
+    "feature": "ROIC (%)_d_3",
+    "full_name": "Return on Invested Capital (ROIC) — Third Most Recent Quarter (d_3)",
+    "meaning": "ROIC percentage from the third most recent fiscal quarter, reflecting mid-term profitability relative to invested capital.",
+    "unit": "%"
+  },
+  {
+    "feature": "ROIC (%)_d_4",
+    "full_name": "Return on Invested Capital (ROIC) — Fourth Most Recent Quarter (d_4)",
+    "meaning": "ROIC percentage from the fourth most recent fiscal quarter, providing further context in the efficiency timeline.",
+    "unit": "%"
+  },
+  {
+    "feature": "ROIC (%)_d_5",
+    "full_name": "Return on Invested Capital (ROIC) — Fifth Most Recent Quarter (d_5)",
+    "meaning": "ROIC percentage from the fifth most recent fiscal quarter, extending the longer-term trend in capital returns.",
+    "unit": "%"
+  },
+  {
+    "feature": "ROIC (%)_d_6",
+    "full_name": "Return on Invested Capital (ROIC) — Sixth Most Recent Quarter (d_6)",
+    "meaning": "ROIC percentage from the sixth most recent fiscal quarter, showing older capital efficiency performance.",
+    "unit": "%"
+  },
+  {
+    "feature": "ROIC (%)_d_7",
+    "full_name": "Return on Invested Capital (ROIC) — Seventh Most Recent Quarter (d_7)",
+    "meaning": "ROIC percentage from the seventh most recent fiscal quarter, near the end of the 8-quarter ROIC series.",
+    "unit": "%"
+  },
+  {
+    "feature": "ROIC (%)_d_8",
+    "full_name": "Return on Invested Capital (ROIC) — Eighth Most Recent Quarter (d_8)",
+    "meaning": "ROIC percentage from the eighth most recent fiscal quarter, the oldest in the 8-quarter ROIC history.",
+    "unit": "%"
+  },
+  {
+    "feature": "ROA (%)_Previous_Quarter",
+    "full_name": "Return on Assets (ROA) — Previous Quarter",
+    "meaning": "ROA percentage reported for the fiscal quarter immediately preceding the trading date, showing profitability relative to total assets.",
+    "unit": "%"
+  },
+  {
+    "feature": "ROA (%)_Same_Period_Last_Year",
+    "full_name": "Return on Assets (ROA) — Same Period Last Year",
+    "meaning": "ROA percentage from the same fiscal quarter in the prior year, used as a benchmark for year-over-year profitability against assets.",
+    "unit": "%"
+  },
+  {
+    "feature": "ROA (%)_d_1",
+    "full_name": "Return on Assets (ROA) — Most Recent Quarter (d_1)",
+    "meaning": "The most recent quarterly ROA percentage available relative to the trading date.",
+    "unit": "%"
+  },
+  {
+    "feature": "ROA (%)_d_2",
+    "full_name": "Return on Assets (ROA) — Second Most Recent Quarter (d_2)",
+    "meaning": "ROA percentage from the second most recent fiscal quarter, extending the short-term ROA history.",
+    "unit": "%"
+  },
+  {
+    "feature": "ROA (%)_d_3",
+    "full_name": "Return on Assets (ROA) — Third Most Recent Quarter (d_3)",
+    "meaning": "ROA percentage from the third most recent fiscal quarter, providing mid-term profitability perspective.",
+    "unit": "%"
+  },
+  {
+    "feature": "ROA (%)_d_4",
+    "full_name": "Return on Assets (ROA) — Fourth Most Recent Quarter (d_4)",
+    "meaning": "ROA percentage from the fourth most recent fiscal quarter, adding depth to the historical profitability trend.",
+    "unit": "%"
+  },
+  {
+    "feature": "ROA (%)_d_5",
+    "full_name": "Return on Assets (ROA) — Fifth Most Recent Quarter (d_5)",
+    "meaning": "ROA percentage from the fifth most recent fiscal quarter, extending the longer-term perspective of asset efficiency.",
+    "unit": "%"
+  },
+  {
+    "feature": "ROA (%)_d_6",
+    "full_name": "Return on Assets (ROA) — Sixth Most Recent Quarter (d_6)",
+    "meaning": "ROA percentage from the sixth most recent fiscal quarter, reflecting older profitability data.",
+    "unit": "%"
+  },
+  {
+    "feature": "ROA (%)_d_7",
+    "full_name": "Return on Assets (ROA) — Seventh Most Recent Quarter (d_7)",
+    "meaning": "ROA percentage from the seventh most recent fiscal quarter, near the end of the 8-quarter ROA series.",
+    "unit": "%"
+  },
+  {
+    "feature": "ROA (%)_d_8",
+    "full_name": "Return on Assets (ROA) — Eighth Most Recent Quarter (d_8)",
+    "meaning": "ROA percentage from the eighth most recent fiscal quarter, the oldest entry in the 8-quarter ROA history.",
+    "unit": "%"
+  },
+  {
+    "feature": "ticket",
+    "full_name": "Stock Symbol",
+    "meaning": "The ticker symbol representing the listed company or security.",
+    "unit": "string"
+  },
+  {
+    "feature": "volume_ma",
+    "full_name": "Volume Moving Average (20 days)",
+    "meaning": "The 20-day simple moving average of trading volume, smoothing fluctuations in daily activity.",
+    "unit": "shares"
+  },
+  {
+    "feature": "volume_to_volume_ma_ratio",
+    "full_name": "Volume to Volume Moving Average Ratio",
+    "meaning": "The ratio of current trading volume to its 20-day average, highlighting unusual activity levels.",
+    "unit": "ratio"
+  },
+  {
+    "feature": "ema_12",
+    "full_name": "Exponential Moving Average (12 days)",
+    "meaning": "The 12-day exponential moving average of closing prices, emphasizing recent movements for short-term trend detection.",
+    "unit": "price"
+  },
+  {
+    "feature": "ema_26",
+    "full_name": "Exponential Moving Average (26 days)",
+    "meaning": "The 26-day exponential moving average of closing prices, used for identifying medium-term trends.",
+    "unit": "price"
+  },
+  {
+    "feature": "sma_20",
+    "full_name": "Simple Moving Average (20 days)",
+    "meaning": "The 20-day simple moving average of closing prices, a common gauge for monthly trend direction.",
+    "unit": "price"
+  },
+  {
+    "feature": "sma_50",
+    "full_name": "Simple Moving Average (50 days)",
+    "meaning": "The 50-day simple moving average of closing prices, often used to identify longer-term market trends.",
+    "unit": "price"
+  },
+  {
+    "feature": "roc_5",
+    "full_name": "Rate of Change (5 days)",
+    "meaning": "The percentage change in closing price compared to 5 sessions earlier, a short-term momentum measure.",
+    "unit": "%"
+  },
+  {
+    "feature": "%K",
+    "full_name": "Stochastic Oscillator %K (14)",
+    "meaning": "Momentum indicator showing the position of the closing price relative to the high-low range over 14 periods.",
+    "unit": "%"
+  },
+  {
+    "feature": "%R",
+    "full_name": "Williams %R (14)",
+    "meaning": "Momentum oscillator that measures overbought and oversold levels relative to the 14-period high-low range.",
+    "unit": "%"
+  },
+  {
+    "feature": "typical_price",
+    "full_name": "Typical Price",
+    "meaning": "The average of high, low, and closing prices, often used in indicators like CCI.",
+    "unit": "price"
+  },
+  {
+    "feature": "cci",
+    "full_name": "Commodity Channel Index (20)",
+    "meaning": "An oscillator that measures the deviation of price from its 20-day average typical price, used to identify extremes.",
+    "unit": "points"
+  },
+  {
+    "feature": "obv",
+    "full_name": "On-Balance Volume",
+    "meaning": "A cumulative indicator that adds volume on up days and subtracts volume on down days, used to gauge buying and selling pressure.",
+    "unit": "shares (cumulative)"
+  },
+  {
+    "feature": "macd",
+    "full_name": "MACD (12,26)",
+    "meaning": "The Moving Average Convergence Divergence, calculated as EMA(12) minus EMA(26), highlighting trend momentum.",
+    "unit": "points"
+  },
+  {
+    "feature": "signal_line",
+    "full_name": "MACD Signal Line",
+    "meaning": "The 9-day EMA of MACD, used to generate buy/sell signals when crossed by the MACD line.",
+    "unit": "points"
+  },
+  {
+    "feature": "macd_histogram",
+    "full_name": "MACD Histogram",
+    "meaning": "The difference between MACD and its signal line, used to visualize momentum shifts.",
+    "unit": "points"
+  },
+  {
+    "feature": "rsi",
+    "full_name": "Relative Strength Index (14)",
+    "meaning": "An oscillator measuring the speed and change of price movements over 14 periods, ranging from 0 to 100.",
+    "unit": "points (0–100)"
+  },
+  {
+    "feature": "bb_bbm",
+    "full_name": "Bollinger Bands Middle Band",
+    "meaning": "The 20-day moving average of closing prices, serving as the central line of the Bollinger Bands.",
+    "unit": "price"
+  },
+  {
+    "feature": "bb_bbh",
+    "full_name": "Bollinger Bands Upper Band",
+    "meaning": "The upper band of the Bollinger Bands, calculated as middle band + 2 standard deviations of the 20-day rolling window.",
+    "unit": "price"
+  },
+  {
+    "feature": "bb_bbl",
+    "full_name": "Bollinger Bands Lower Band",
+    "meaning": "The lower band of the Bollinger Bands, calculated as middle band − 2 standard deviations of the 20-day rolling window.",
+    "unit": "price"
+  },
+  {
+    "feature": "bb_bbp",
+    "full_name": "Bollinger Bands %B",
+    "meaning": "The normalized position of the price within the Bollinger Bands range, showing if the price is near the upper or lower band.",
+    "unit": "ratio (0–1 scale)"
+  },
+  {
+    "feature": "bb_bbh_bb_bbl_ratio",
+    "full_name": "Ratio of Upper to Lower Bollinger Band",
+    "meaning": "The ratio of the Bollinger Bands upper band to the lower band, representing the spread between bands as a relative measure.",
+    "unit": "ratio"
+  },
+  {
+    "feature": "log_return",
+    "full_name": "Daily Logarithmic Return",
+    "meaning": "Natural log of close_t / close_{t−1}, used to measure continuously compounded returns.",
+    "unit": "log points"
+  },
+  {
+    "feature": "volatility_5d",
+    "full_name": "Rolling Volatility (5 days)",
+    "meaning": "The standard deviation of daily log returns over the past 5 sessions, measuring short-term risk.",
+    "unit": "log return std"
+  },
+  {
+    "feature": "volatility_10d",
+    "full_name": "Rolling Volatility (10 days)",
+    "meaning": "The standard deviation of daily log returns over the past 10 sessions.",
+    "unit": "log return std"
+  },
+  {
+    "feature": "volatility_20d",
+    "full_name": "Rolling Volatility (20 days)",
+    "meaning": "The standard deviation of daily log returns over the past 20 sessions.",
+    "unit": "log return std"
+  },
+  {
+    "feature": "volatility_30d",
+    "full_name": "Rolling Volatility (30 days)",
+    "meaning": "The standard deviation of daily log returns over the past 30 sessions.",
+    "unit": "log return std"
+  },
+  {
+    "feature": "mean_log_return_5d",
+    "full_name": "Mean Log Return (5 days)",
+    "meaning": "The average of daily log returns over the past 5 sessions.",
+    "unit": "log points"
+  },
+  {
+    "feature": "mean_log_return_10d",
+    "full_name": "Mean Log Return (10 days)",
+    "meaning": "The average of daily log returns over the past 10 sessions.",
+    "unit": "log points"
+  },
+  {
+    "feature": "mean_log_return_20d",
+    "full_name": "Mean Log Return (20 days)",
+    "meaning": "The average of daily log returns over the past 20 sessions.",
+    "unit": "log points"
+  },
+  {
+    "feature": "mean_log_return_30d",
+    "full_name": "Mean Log Return (30 days)",
+    "meaning": "The average of daily log returns over the past 30 sessions.",
+    "unit": "log points"
+  },
+  {
+    "feature": "sharpe_like_5d",
+    "full_name": "Sharpe-like Ratio (5 days)",
+    "meaning": "Mean log return divided by volatility over the past 5 sessions. A proxy for risk-adjusted return.",
+    "unit": "ratio"
+  },
+  {
+    "feature": "sharpe_like_10d",
+    "full_name": "Sharpe-like Ratio (10 days)",
+    "meaning": "Mean log return divided by volatility over the past 10 sessions.",
+    "unit": "ratio"
+  },
+  {
+    "feature": "sharpe_like_20d",
+    "full_name": "Sharpe-like Ratio (20 days)",
+    "meaning": "Mean log return divided by volatility over the past 20 sessions.",
+    "unit": "ratio"
+  },
+  {
+    "feature": "sharpe_like_30d",
+    "full_name": "Sharpe-like Ratio (30 days)",
+    "meaning": "Mean log return divided by volatility over the past 30 sessions.",
+    "unit": "ratio"
+  },
+  {
+    "feature": "up_streak",
+    "full_name": "Consecutive Upward Streak",
+    "meaning": "The number of consecutive trading days with positive log returns; reset to zero when a loss occurs.",
+    "unit": "days"
+  },
+  {
+    "feature": "pos_log_return_ratio_20d",
+    "full_name": "Positive Log Return Ratio (20 days)",
+    "meaning": "The fraction of days with positive log returns in the past 20 sessions.",
+    "unit": "ratio (0–1)"
+  },
+  {
+    "feature": "z_score_5d",
+    "full_name": "Z-score of Log Return (5 days)",
+    "meaning": "The standardized log return using the 5-day rolling mean and volatility.",
+    "unit": "z-score"
+  },
+  {
+    "feature": "z_score_10d",
+    "full_name": "Z-score of Log Return (10 days)",
+    "meaning": "The standardized log return using the 10-day rolling mean and volatility.",
+    "unit": "z-score"
+  },
+  {
+    "feature": "z_score_20d",
+    "full_name": "Z-score of Log Return (20 days)",
+    "meaning": "The standardized log return using the 20-day rolling mean and volatility.",
+    "unit": "z-score"
+  },
+  {
+    "feature": "z_score_30d",
+    "full_name": "Z-score of Log Return (30 days)",
+    "meaning": "The standardized log return using the 30-day rolling mean and volatility.",
+    "unit": "z-score"
+  },
+  {
+    "feature": "annual_return",
+    "full_name": "Annual Return (252-day)",
+    "meaning": "The percentage return over the prior 252 trading days (approximately one year).",
+    "unit": "%"
+  },
+  {
+    "feature": "daily_return",
+    "full_name": "Daily Return",
+    "meaning": "The simple percentage change in closing price compared to the previous day.",
+    "unit": "%"
+  },
+  {
+    "feature": "annual_volatility",
+    "full_name": "Annualized Volatility",
+    "meaning": "The standard deviation of daily returns over the past 252 days, scaled by the square root of 252.",
+    "unit": "%"
+  },
+  {
+    "feature": "sharpe_ratio",
+    "full_name": "Annualized Sharpe Ratio",
+    "meaning": "Calculated as (annual return − 3% risk-free rate) divided by annual volatility. Measures risk-adjusted performance over a year.",
+    "unit": "ratio"
+  },
+  {
+    "feature": "P/B_change_rate_flag",
+    "full_name": "P/B Change Rate Validity Flag",
+    "meaning": "Indicator flag (1 if last year’s P/B value = 0, else 0) used to mark invalid denominator in P/B change rate calculation.",
+    "unit": "binary flag"
+  },
+  {
+    "feature": "P/B_change_rate",
+    "full_name": "P/B Change Rate",
+    "meaning": "The year-over-year change in P/B ratio: (P/B_Previous_Quarter − P/B_Same_Period_Last_Year) / P/B_Same_Period_Last_Year. If denominator is zero, value is set to 999.",
+    "unit": "ratio"
+  },
+  {
+    "feature": "P/E_change_rate_flag",
+    "full_name": "P/E Change Rate Validity Flag",
+    "meaning": "Indicator flag: 1 if last year’s P/E value equals 0, otherwise 0. Used to mark invalid denominators in P/E change rate calculation.",
+    "unit": "binary flag"
+  },
+  {
+    "feature": "P/E_change_rate",
+    "full_name": "P/E Change Rate",
+    "meaning": "Year-over-year change in P/E ratio: (P/E_Previous_Quarter − P/E_Same_Period_Last_Year) / P/E_Same_Period_Last_Year. Set to 999 if denominator is zero.",
+    "unit": "ratio"
+  },
+  {
+    "feature": "P/S_change_rate_flag",
+    "full_name": "P/S Change Rate Validity Flag",
+    "meaning": "Indicator flag: 1 if last year’s P/S value equals 0, otherwise 0. Used to mark invalid denominators in P/S change rate calculation.",
+    "unit": "binary flag"
+  },
+  {
+    "feature": "P/S_change_rate",
+    "full_name": "P/S Change Rate",
+    "meaning": "Year-over-year change in P/S ratio: (P/S_Previous_Quarter − P/S_Same_Period_Last_Year) / P/S_Same_Period_Last_Year. Set to 999 if denominator is zero.",
+    "unit": "ratio"
+  },
+  {
+    "feature": "P/Cash Flow_change_rate_flag",
+    "full_name": "P/CF Change Rate Validity Flag",
+    "meaning": "Indicator flag: 1 if last year’s P/CF value equals 0, otherwise 0. Used to mark invalid denominators in P/CF change rate calculation.",
+    "unit": "binary flag"
+  },
+  {
+    "feature": "P/Cash Flow_change_rate",
+    "full_name": "P/CF Change Rate",
+    "meaning": "Year-over-year change in P/CF ratio: (P/CF_Previous_Quarter − P/CF_Same_Period_Last_Year) / P/CF_Same_Period_Last_Year. Set to 999 if denominator is zero.",
+    "unit": "ratio"
+  },
+  {
+    "feature": "EPS (VND)_change_rate_flag",
+    "full_name": "EPS Change Rate Validity Flag",
+    "meaning": "Indicator flag: 1 if last year’s EPS value equals 0, otherwise 0. Used to mark invalid denominators in EPS change rate calculation.",
+    "unit": "binary flag"
+  },
+  {
+    "feature": "EPS (VND)_change_rate",
+    "full_name": "EPS Change Rate",
+    "meaning": "Year-over-year change in EPS: (EPS_Previous_Quarter − EPS_Same_Period_Last_Year) / EPS_Same_Period_Last_Year. Set to 999 if denominator is zero.",
+    "unit": "ratio"
+  },
+  {
+    "feature": "BVPS (VND)_change_rate_flag",
+    "full_name": "BVPS Change Rate Validity Flag",
+    "meaning": "Indicator flag: 1 if last year’s BVPS value equals 0, otherwise 0. Used to mark invalid denominators in BVPS change rate calculation.",
+    "unit": "binary flag"
+  },
+  {
+    "feature": "BVPS (VND)_change_rate",
+    "full_name": "BVPS Change Rate",
+    "meaning": "Year-over-year change in BVPS: (BVPS_Previous_Quarter − BVPS_Same_Period_Last_Year) / BVPS_Same_Period_Last_Year. Set to 999 if denominator is zero.",
+    "unit": "ratio"
+  },
+  {
+    "feature": "ROE (%)_change_rate_flag",
+    "full_name": "ROE Change Rate Validity Flag",
+    "meaning": "Indicator flag: 1 if last year’s ROE value equals 0, otherwise 0. Used to mark invalid denominators in ROE change rate calculation.",
+    "unit": "binary flag"
+  },
+  {
+    "feature": "ROE (%)_change_rate",
+    "full_name": "ROE Change Rate",
+    "meaning": "Year-over-year change in ROE: (ROE_Previous_Quarter − ROE_Same_Period_Last_Year) / ROE_Same_Period_Last_Year. Set to 999 if denominator is zero.",
+    "unit": "ratio"
+  },
+  {
+    "feature": "ROA (%)_change_rate_flag",
+    "full_name": "ROA Change Rate Validity Flag",
+    "meaning": "Indicator flag: 1 if last year’s ROA value equals 0, otherwise 0. Used to mark invalid denominators in ROA change rate calculation.",
+    "unit": "binary flag"
+  },
+  {
+    "feature": "ROA (%)_change_rate",
+    "full_name": "ROA Change Rate",
+    "meaning": "Year-over-year change in ROA: (ROA_Previous_Quarter − ROA_Same_Period_Last_Year) / ROA_Same_Period_Last_Year. Set to 999 if denominator is zero.",
+    "unit": "ratio"
+  },
+  {
+    "feature": "open_vnd",
+    "full_name": "VNINDEX Open Price",
+    "meaning": "Opening price of the VNINDEX on the trading day.",
+    "unit": "price (VND)"
+  },
+  {
+    "feature": "high_vnd",
+    "full_name": "VNINDEX High Price",
+    "meaning": "Highest price reached by the VNINDEX during the trading day.",
+    "unit": "price (VND)"
+  },
+  {
+    "feature": "low_vnd",
+    "full_name": "VNINDEX Low Price",
+    "meaning": "Lowest price reached by the VNINDEX during the trading day.",
+    "unit": "price (VND)"
+  },
+  {
+    "feature": "close_vnd",
+    "full_name": "VNINDEX Close Price",
+    "meaning": "Closing price of the VNINDEX on the trading day.",
+    "unit": "price (VND)"
+  },
+  {
+    "feature": "volume_vnd",
+    "full_name": "VNINDEX Trading Volume",
+    "meaning": "The number of shares traded in the VNINDEX on the trading day.",
+    "unit": "shares"
+  },
+  {
+    "feature": "rsi_vnd",
+    "full_name": "VNINDEX Relative Strength Index (14)",
+    "meaning": "Momentum oscillator of the VNINDEX based on 14-period gains and losses, ranging from 0 to 100.",
+    "unit": "points (0–100)"
+  },
+  {
+    "feature": "rsi_base_ma_vnd",
+    "full_name": "VNINDEX RSI Base Moving Average (9 days)",
+    "meaning": "The 9-day moving average of VNINDEX RSI values, used as a baseline for comparison.",
+    "unit": "points"
+  },
+  {
+    "feature": "rsi_rsi_base_ma_ratio_vnd",
+    "full_name": "VNINDEX RSI to RSI-MA Ratio",
+    "meaning": "The ratio of VNINDEX RSI to its 9-day moving average, highlighting relative strength against its baseline.",
+    "unit": "ratio"
+  },
+  {
+    "feature": "volume_ma_vnd",
+    "full_name": "VNINDEX Volume Moving Average (20 days)",
+    "meaning": "The 20-day simple moving average of VNINDEX trading volume.",
+    "unit": "shares"
+  },
+  {
+    "feature": "volume_to_volume_ma_ratio_vnd",
+    "full_name": "VNINDEX Volume to Volume MA Ratio",
+    "meaning": "The ratio of VNINDEX current trading volume to its 20-day average, showing unusual activity levels.",
+    "unit": "ratio"
+  },
+  {
+    "feature": "bb_bbm_vnd",
+    "full_name": "VNINDEX Bollinger Bands Middle Band",
+    "meaning": "The 20-day moving average of VNINDEX closing prices, serving as the middle Bollinger Band.",
+    "unit": "price"
+  },
+  {
+    "feature": "bb_bbh_vnd",
+    "full_name": "VNINDEX Bollinger Bands Upper Band",
+    "meaning": "The upper Bollinger Band of VNINDEX, calculated as middle band + 2 standard deviations.",
+    "unit": "price"
+  },
+  {
+    "feature": "bb_bbl_vnd",
+    "full_name": "VNINDEX Bollinger Bands Lower Band",
+    "meaning": "The lower Bollinger Band of VNINDEX, calculated as middle band − 2 standard deviations.",
+    "unit": "price"
+  },
+  {
+    "feature": "bb_bbp_vnd",
+    "full_name": "VNINDEX Bollinger Bands %B",
+    "meaning": "The normalized position of VNINDEX closing price within its Bollinger Bands range.",
+    "unit": "ratio (0–1)"
+  },
+  {
+    "feature": "bb_bbh_bb_bbl_ratio_vnd",
+    "full_name": "VNINDEX Upper to Lower Bollinger Band Ratio",
+    "meaning": "The ratio of VNINDEX upper Bollinger Band to lower Bollinger Band.",
+    "unit": "ratio"
+  },
+  {
+    "feature": "roc_vnd",
+    "full_name": "VNINDEX Rate of Change (9 days)",
+    "meaning": "Percentage change of VNINDEX closing price compared to 9 sessions earlier.",
+    "unit": "%"
+  },
+  {
+    "feature": "%K_vnd",
+    "full_name": "VNINDEX Stochastic Oscillator %K (14)",
+    "meaning": "Momentum indicator showing VNINDEX close relative to its 14-period high-low range.",
+    "unit": "%"
+  },
+  {
+    "feature": "%R_vnd",
+    "full_name": "VNINDEX Williams %R (14)",
+    "meaning": "Momentum oscillator showing whether VNINDEX is overbought or oversold relative to the 14-day high-low range.",
+    "unit": "%"
+  },
+  {
+    "feature": "typical_price_vnd",
+    "full_name": "VNINDEX Typical Price",
+    "meaning": "The average of high, low, and close prices of VNINDEX, used for indicators like CCI.",
+    "unit": "price (VND)"
+  },
+  {
+    "feature": "cci_vnd",
+    "full_name": "VNINDEX Commodity Channel Index (20)",
+    "meaning": "Oscillator measuring deviation of VNINDEX price from its 20-day average typical price.",
+    "unit": "points"
+  },
+  {
+    "feature": "obv_vnd",
+    "full_name": "VNINDEX On-Balance Volume",
+    "meaning": "Cumulative measure of VNINDEX volume, adding on up days and subtracting on down days.",
+    "unit": "shares (cumulative)"
+  },
+  {
+    "feature": "ema_12_vnd",
+    "full_name": "VNINDEX EMA (12 days)",
+    "meaning": "12-day exponential moving average of VNINDEX closing prices.",
+    "unit": "price (VND)"
+  },
+  {
+    "feature": "ema_26_vnd",
+    "full_name": "VNINDEX EMA (26 days)",
+    "meaning": "26-day exponential moving average of VNINDEX closing prices.",
+    "unit": "price (VND)"
+  },
+  {
+    "feature": "sma_20_vnd",
+    "full_name": "VNINDEX SMA (20 days)",
+    "meaning": "20-day simple moving average of VNINDEX closing prices.",
+    "unit": "price (VND)"
+  },
+  {
+    "feature": "sma_50_vnd",
+    "full_name": "VNINDEX SMA (50 days)",
+    "meaning": "50-day simple moving average of VNINDEX closing prices.",
+    "unit": "price (VND)"
+  },
+  {
+    "feature": "change",
+    "full_name": "Next-day Percentage Change",
+    "meaning": "The percentage change in closing price from current day to the following day, used for labeling targets.",
+    "unit": "%"
+  },
+  {
+    "feature": "target",
+    "full_name": "Trading Signal Target",
+    "meaning": "Label for supervised learning: 0 = Hold, 1 = Buy (next-day change > +1%), 2 = Sell (next-day change < −1%).",
+    "unit": "categorical"
+  },
+  {
+    "feature": "coefficient_P/B",
+    "full_name": "Sentiment Coefficient — P/B",
+    "meaning": "Sentiment-adjusted coefficient extracted from news that reflects how articles affect perceptions of P/B valuation.",
+    "unit": "score (−1 to 1)"
+  },
+  {
+    "feature": "coefficient_P/E",
+    "full_name": "Sentiment Coefficient — P/E",
+    "meaning": "Sentiment-adjusted coefficient reflecting how news content influences perception of P/E valuation.",
+    "unit": "score (−1 to 1)"
+  },
+  {
+    "feature": "coefficient_P/S",
+    "full_name": "Sentiment Coefficient — P/S",
+    "meaning": "Sentiment-adjusted coefficient reflecting how news content influences perception of P/S valuation.",
+    "unit": "score (−1 to 1)"
+  },
+  {
+    "feature": "coefficient_P/Cash Flow",
+    "full_name": "Sentiment Coefficient — P/CF",
+    "meaning": "Sentiment-adjusted coefficient reflecting how news content influences perception of P/CF valuation.",
+    "unit": "score (−1 to 1)"
+  },
+  {
+    "feature": "coefficient_EPS (VND)",
+    "full_name": "Sentiment Coefficient — EPS",
+    "meaning": "Sentiment-adjusted coefficient reflecting how news content influences perception of earnings per share.",
+    "unit": "score (−1 to 1)"
+  },
+  {
+    "feature": "coefficient_BVPS (VND)",
+    "full_name": "Sentiment Coefficient — BVPS",
+    "meaning": "Sentiment-adjusted coefficient reflecting how news content influences perception of book value per share.",
+    "unit": "score (−1 to 1)"
+  },
+  {
+    "feature": "coefficient_ROE (%)",
+    "full_name": "Sentiment Coefficient — ROE",
+    "meaning": "Sentiment-adjusted coefficient reflecting how news content influences perception of return on equity.",
+    "unit": "score (−1 to 1)"
+  },
+  {
+    "feature": "coefficient_ROA (%)",
+    "full_name": "Sentiment Coefficient — ROA",
+    "meaning": "Sentiment-adjusted coefficient reflecting how news content influences perception of return on assets.",
+    "unit": "score (−1 to 1)"
+  },
+  {
+    "feature": "Reputation",
+    "full_name": "Sentiment — Reputation",
+    "meaning": "Sentiment score (−1 to 1) extracted from news articles regarding the company’s reputation.",
+    "unit": "score (−1 to 1)"
+  },
+  {
+    "feature": "Financial",
+    "full_name": "Sentiment — Financial",
+    "meaning": "Sentiment score (−1 to 1) about the company’s financial condition from news content.",
+    "unit": "score (−1 to 1)"
+  },
+  {
+    "feature": "Regulatory",
+    "full_name": "Sentiment — Regulatory",
+    "meaning": "Sentiment score (−1 to 1) about the impact of regulation, policy, or authorities on the company.",
+    "unit": "score (−1 to 1)"
+  },
+  {
+    "feature": "Risks",
+    "full_name": "Sentiment — Risks",
+    "meaning": "Sentiment score (−1 to 1) about risks mentioned in news (credit, operational, reputation risk, etc.).",
+    "unit": "score (−1 to 1)"
+  },
+  {
+    "feature": "Fundamentals",
+    "full_name": "Sentiment — Fundamentals",
+    "meaning": "Sentiment score (−1 to 1) on fundamental indicators (e.g., P/E, P/B, leverage ratios) extracted from news.",
+    "unit": "score (−1 to 1)"
+  },
+  {
+    "feature": "Conditions",
+    "full_name": "Sentiment — Conditions",
+    "meaning": "Sentiment score (−1 to 1) about macro or microeconomic conditions affecting the company.",
+    "unit": "score (−1 to 1)"
+  },
+  {
+    "feature": "Market",
+    "full_name": "Sentiment — Market",
+    "meaning": "Sentiment score (−1 to 1) about the overall market environment from news content.",
+    "unit": "score (−1 to 1)"
+  },
+  {
+    "feature": "Volatility",
+    "full_name": "Sentiment — Volatility",
+    "meaning": "Sentiment score (−1 to 1) about market or stock volatility as reflected in news.",
+    "unit": "score (−1 to 1)"
+  },
+  {
+    "feature": "symbol",
+    "full_name": "Ticker Symbol",
+    "meaning": "The stock’s ticker symbol used as identifier.",
+    "unit": "string"
+  },
+  {
+    "feature": "Buy_Prob",
+    "full_name": "Predicted Probability — Buy",
+    "meaning": "Model output: probability that the stock should be classified as Buy.",
+    "unit": "probability (0–1)"
+  },
+  {
+    "feature": "Hold_Prob",
+    "full_name": "Predicted Probability — Hold",
+    "meaning": "Model output: probability that the stock should be classified as Hold.",
+    "unit": "probability (0–1)"
+  },
+  {
+    "feature": "Sell_Prob",
+    "full_name": "Predicted Probability — Sell",
+    "meaning": "Model output: probability that the stock should be classified as Sell.",
+    "unit": "probability (0–1)"
+  }
+]

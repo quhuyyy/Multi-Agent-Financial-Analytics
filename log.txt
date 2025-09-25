@@ -1,0 +1,411 @@
+agentic_ai-backend-1  | INFO:     Will watch for changes in these directories: ['/app']
+agentic_ai-backend-1  | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+agentic_ai-backend-1  | INFO:     Started reloader process [8] using WatchFiles
+agentic_ai-backend-1  | /usr/local/lib/python3.10/site-packages/flaml/__init__.py:20: UserWarning: flaml.automl is not available. Please install flaml[automl] to enable AutoML functionalities.
+agentic_ai-backend-1  |   warnings.warn("flaml.automl is not available. Please install flaml[automl] to enable AutoML functionalities.")
+agentic_ai-backend-1  | INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: GET http://qdrant:6333 "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | <_io.TextIOWrapper name='./OAI_CONFIG_TEXT2SQL' mode='r' encoding='UTF-8'>
+agentic_ai-backend-1  | ./BaoCaoTaiChinh
+agentic_ai-backend-1  | Không tạo collection mới, thêm vào collection cũ
+agentic_ai-backend-1  | Đang xử lý mã cổ phiếu AAH
+agentic_ai-backend-1  | Đang xử lý ['./BaoCaoTaiChinh/AAH/Báo cáo tài chính quý 4_ 2024.pdf', './BaoCaoTaiChinh/AAH/Báo cáo tài chính quý 3_ 2024.pdf', './BaoCaoTaiChinh/AAH/Báo cáo tài chính quý 2_ 2024.pdf', './BaoCaoTaiChinh/AAH/Báo cáo tài chính bán niên 2024.pdf'] tổng số file: 4
+agentic_ai-backend-1  | Đang xử lý file: ./BaoCaoTaiChinh/AAH/Báo cáo tài chính quý 4_ 2024.pdf
+agentic_ai-backend-1  | /app/vi_rag_agent.py:146: LangChainBetaWarning: Introduced in 0.2.24. API subject to change.
+agentic_ai-backend-1  |   rate_limiter = InMemoryRateLimiter(
+agentic_ai-backend-1  | Đã tách file
+agentic_ai-backend-1  | File ./BaoCaoTaiChinh/AAH/Báo cáo tài chính quý 4_ 2024.pdf được chia thành 1 files
+agentic_ai-backend-1  | 0
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | No table summaries found.
+agentic_ai-backend-1  | Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.19it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.18it/s]
+agentic_ai-backend-1  | Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.46it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.45it/s]
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: PUT http://qdrant:6333/collections/financial-reports/points?wait=false "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: GET http://qdrant:6333/collections/financial-reports "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | Số lượng vector trong collection: None
+agentic_ai-backend-1  | Đã lưu vào vector db thành công file: ./BaoCaoTaiChinh/AAH/Báo cáo tài chính quý 4_ 2024.pdf
+agentic_ai-backend-1  | Đang xử lý file: ./BaoCaoTaiChinh/AAH/Báo cáo tài chính quý 3_ 2024.pdf
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | Đã tách file
+agentic_ai-backend-1  | File ./BaoCaoTaiChinh/AAH/Báo cáo tài chính quý 3_ 2024.pdf được chia thành 30 files
+agentic_ai-backend-1  | 0
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 1
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 2
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 3
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 4
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 5
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 6
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 7
+agentic_ai-backend-1  | Status code: 500
+agentic_ai-backend-1  | Lỗi từ server: 500, {"data":"Failed to process document"} tại file số 7
+agentic_ai-backend-1  | 8
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 9
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 10
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 11
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 12
+agentic_ai-backend-1  | Status code: 500
+agentic_ai-backend-1  | Lỗi từ server: 500, {"data":"Failed to process document"} tại file số 12
+agentic_ai-backend-1  | 13
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 14
+agentic_ai-backend-1  | Status code: 500
+agentic_ai-backend-1  | Lỗi từ server: 500, {"data":"Failed to process document"} tại file số 14
+agentic_ai-backend-1  | 15
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 16
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 17
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 18
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 19
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 20
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 21
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 22
+agentic_ai-backend-1  | Status code: 504
+agentic_ai-backend-1  | Lỗi từ server: 504, <html>
+agentic_ai-backend-1  | <head><title>504 Gateway Time-out</title></head>
+agentic_ai-backend-1  | <body>
+agentic_ai-backend-1  | <center><h1>504 Gateway Time-out</h1></center>
+agentic_ai-backend-1  | </body>
+agentic_ai-backend-1  | </html>
+agentic_ai-backend-1  |  tại file số 22
+agentic_ai-backend-1  | 23
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 24
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 25
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 26
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 27
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 28
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 29
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | No table summaries found.
+agentic_ai-backend-1  | Batches:   0%|          | 0/3 [00:00<?, ?it/s]Batches:  33%|███▎      | 1/3 [00:06<00:12,  6.20s/it]Batches:  67%|██████▋   | 2/3 [00:12<00:06,  6.51s/it]Batches: 100%|██████████| 3/3 [00:13<00:00,  3.83s/it]Batches: 100%|██████████| 3/3 [00:13<00:00,  4.52s/it]
+agentic_ai-backend-1  | Batches:   0%|          | 0/3 [00:00<?, ?it/s]Batches:  33%|███▎      | 1/3 [00:06<00:12,  6.05s/it]Batches:  67%|██████▋   | 2/3 [00:12<00:06,  6.15s/it]Batches: 100%|██████████| 3/3 [00:12<00:00,  3.62s/it]Batches: 100%|██████████| 3/3 [00:12<00:00,  4.29s/it]
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: PUT http://qdrant:6333/collections/financial-reports/points?wait=false "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: GET http://qdrant:6333/collections/financial-reports "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | Số lượng vector trong collection: None
+agentic_ai-backend-1  | Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:04<00:00,  4.76s/it]Batches: 100%|██████████| 1/1 [00:04<00:00,  4.76s/it]
+agentic_ai-backend-1  | Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:05<00:00,  5.03s/it]Batches: 100%|██████████| 1/1 [00:05<00:00,  5.03s/it]
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: PUT http://qdrant:6333/collections/financial-reports/points?wait=false "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: GET http://qdrant:6333/collections/financial-reports "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | Số lượng vector trong collection: None
+agentic_ai-backend-1  | Đã lưu vào vector db thành công file: ./BaoCaoTaiChinh/AAH/Báo cáo tài chính quý 3_ 2024.pdf
+agentic_ai-backend-1  | Đang xử lý file: ./BaoCaoTaiChinh/AAH/Báo cáo tài chính quý 2_ 2024.pdf
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | Đã tách file
+agentic_ai-backend-1  | File ./BaoCaoTaiChinh/AAH/Báo cáo tài chính quý 2_ 2024.pdf được chia thành 31 files
+agentic_ai-backend-1  | 0
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 1
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 2
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 3
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 4
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 5
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 6
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 7
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 8
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 9
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 10
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 11
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 12
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 13
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 14
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 15
+agentic_ai-backend-1  | Status code: 429
+agentic_ai-backend-1  | Lỗi từ server: 429, Too Many Requests tại file số 15
+agentic_ai-backend-1  | 16
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 17
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 18
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 19
+agentic_ai-backend-1  | Status code: 500
+agentic_ai-backend-1  | Lỗi từ server: 500, {"data":"Failed to process document"} tại file số 19
+agentic_ai-backend-1  | 20
+agentic_ai-backend-1  | Status code: 504
+agentic_ai-backend-1  | Lỗi từ server: 504, <html>
+agentic_ai-backend-1  | <head><title>504 Gateway Time-out</title></head>
+agentic_ai-backend-1  | <body>
+agentic_ai-backend-1  | <center><h1>504 Gateway Time-out</h1></center>
+agentic_ai-backend-1  | </body>
+agentic_ai-backend-1  | </html>
+agentic_ai-backend-1  |  tại file số 20
+agentic_ai-backend-1  | 21
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 22
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 23
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 24
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 25
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 26
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 27
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 28
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 29
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 30
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | No table summaries found.
+agentic_ai-backend-1  | Batches:   0%|          | 0/2 [00:00<?, ?it/s]Batches:  50%|█████     | 1/2 [00:03<00:03,  3.48s/it]Batches: 100%|██████████| 2/2 [00:06<00:00,  3.01s/it]Batches: 100%|██████████| 2/2 [00:06<00:00,  3.08s/it]
+agentic_ai-backend-1  | Batches:   0%|          | 0/2 [00:00<?, ?it/s]Batches:  50%|█████     | 1/2 [00:04<00:04,  4.38s/it]Batches: 100%|██████████| 2/2 [00:06<00:00,  3.06s/it]Batches: 100%|██████████| 2/2 [00:06<00:00,  3.25s/it]
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: PUT http://qdrant:6333/collections/financial-reports/points?wait=false "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: GET http://qdrant:6333/collections/financial-reports "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | Số lượng vector trong collection: None
+agentic_ai-backend-1  | Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:05<00:00,  5.46s/it]Batches: 100%|██████████| 1/1 [00:05<00:00,  5.46s/it]
+agentic_ai-backend-1  | Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:05<00:00,  5.57s/it]Batches: 100%|██████████| 1/1 [00:05<00:00,  5.57s/it]
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: PUT http://qdrant:6333/collections/financial-reports/points?wait=false "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: GET http://qdrant:6333/collections/financial-reports "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | Số lượng vector trong collection: None
+agentic_ai-backend-1  | Đã lưu vào vector db thành công file: ./BaoCaoTaiChinh/AAH/Báo cáo tài chính quý 2_ 2024.pdf
+agentic_ai-backend-1  | Đang xử lý file: ./BaoCaoTaiChinh/AAH/Báo cáo tài chính bán niên 2024.pdf
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | Đã tách file
+agentic_ai-backend-1  | File ./BaoCaoTaiChinh/AAH/Báo cáo tài chính bán niên 2024.pdf được chia thành 37 files
+agentic_ai-backend-1  | 0
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 1
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 2
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 3
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 4
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 5
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 6
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 7
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 8
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 9
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 10
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 11
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 12
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 13
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 14
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 15
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 16
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 17
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 18
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 19
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 20
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 21
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 22
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 23
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 24
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 25
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 26
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 27
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 28
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 29
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 30
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 31
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 32
+agentic_ai-backend-1  | Status code: 504
+agentic_ai-backend-1  | Lỗi từ server: 504, <html>
+agentic_ai-backend-1  | <head><title>504 Gateway Time-out</title></head>
+agentic_ai-backend-1  | <body>
+agentic_ai-backend-1  | <center><h1>504 Gateway Time-out</h1></center>
+agentic_ai-backend-1  | </body>
+agentic_ai-backend-1  | </html>
+agentic_ai-backend-1  |  tại file số 32
+agentic_ai-backend-1  | 33
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 34
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | 35
+agentic_ai-backend-1  | Status code: 504
+agentic_ai-backend-1  | Lỗi từ server: 504, <html>
+agentic_ai-backend-1  | <head><title>504 Gateway Time-out</title></head>
+agentic_ai-backend-1  | <body>
+agentic_ai-backend-1  | <center><h1>504 Gateway Time-out</h1></center>
+agentic_ai-backend-1  | </body>
+agentic_ai-backend-1  | </html>
+agentic_ai-backend-1  |  tại file số 35
+agentic_ai-backend-1  | 36
+agentic_ai-backend-1  | Status code: 200
+agentic_ai-backend-1  | No table summaries found.
+agentic_ai-backend-1  | Batches:   0%|          | 0/5 [00:00<?, ?it/s]Batches:  20%|██        | 1/5 [00:03<00:12,  3.12s/it]Batches:  40%|████      | 2/5 [00:06<00:09,  3.28s/it]Batches:  60%|██████    | 3/5 [00:08<00:05,  2.89s/it]Batches:  80%|████████  | 4/5 [00:10<00:02,  2.38s/it]Batches: 100%|██████████| 5/5 [00:10<00:00,  2.11s/it]
+agentic_ai-backend-1  | Batches:   0%|          | 0/5 [00:00<?, ?it/s]Batches:  20%|██        | 1/5 [00:03<00:12,  3.17s/it]Batches:  40%|████      | 2/5 [00:06<00:10,  3.45s/it]Batches:  60%|██████    | 3/5 [00:09<00:05,  2.92s/it]Batches:  80%|████████  | 4/5 [00:10<00:02,  2.38s/it]Batches: 100%|██████████| 5/5 [00:10<00:00,  2.14s/it]
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: PUT http://qdrant:6333/collections/financial-reports/points?wait=false "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: GET http://qdrant:6333/collections/financial-reports "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | Số lượng vector trong collection: None
+agentic_ai-backend-1  | Batches:   0%|          | 0/2 [00:00<?, ?it/s]Batches:  50%|█████     | 1/2 [00:09<00:09,  9.38s/it]Batches: 100%|██████████| 2/2 [00:09<00:00,  4.07s/it]Batches: 100%|██████████| 2/2 [00:09<00:00,  4.87s/it]
+agentic_ai-backend-1  | Batches:   0%|          | 0/2 [00:00<?, ?it/s]Batches:  50%|█████     | 1/2 [00:10<00:10, 10.26s/it]Batches: 100%|██████████| 2/2 [00:10<00:00,  4.41s/it]Batches: 100%|██████████| 2/2 [00:10<00:00,  5.29s/it]
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: PUT http://qdrant:6333/collections/financial-reports/points?wait=false "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | INFO:httpx:HTTP Request: GET http://qdrant:6333/collections/financial-reports "HTTP/1.1 200 OK"
+agentic_ai-backend-1  | Process SpawnProcess-1:
+agentic_ai-backend-1  | Traceback (most recent call last):
+agentic_ai-backend-1  |   File "/usr/local/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+agentic_ai-backend-1  |     self.run()
+agentic_ai-backend-1  |   File "/usr/local/lib/python3.10/multiprocessing/process.py", line 108, in run
+agentic_ai-backend-1  |     self._target(*self._args, **self._kwargs)
+agentic_ai-backend-1  |   File "/usr/local/lib/python3.10/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+agentic_ai-backend-1  |     target(sockets=sockets)
+agentic_ai-backend-1  |   File "/usr/local/lib/python3.10/site-packages/uvicorn/server.py", line 65, in run
+agentic_ai-backend-1  |     return asyncio.run(self.serve(sockets=sockets))
+agentic_ai-backend-1  |   File "/usr/local/lib/python3.10/asyncio/runners.py", line 44, in run
+agentic_ai-backend-1  |     return loop.run_until_complete(main)
+agentic_ai-backend-1  |   File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+agentic_ai-backend-1  | Số lượng vector trong collection: None
+agentic_ai-backend-1  | Đã lưu vào vector db thành công file: ./BaoCaoTaiChinh/AAH/Báo cáo tài chính bán niên 2024.pdf
+agentic_ai-backend-1  |   File "/usr/local/lib/python3.10/site-packages/uvicorn/server.py", line 69, in serve
+agentic_ai-backend-1  |     await self._serve(sockets)
+agentic_ai-backend-1  |   File "/usr/local/lib/python3.10/site-packages/uvicorn/server.py", line 76, in _serve
+agentic_ai-backend-1  |     config.load()
+agentic_ai-backend-1  |   File "/usr/local/lib/python3.10/site-packages/uvicorn/config.py", line 434, in load
+agentic_ai-backend-1  |     self.loaded_app = import_from_string(self.app)
+agentic_ai-backend-1  |   File "/usr/local/lib/python3.10/site-packages/uvicorn/importer.py", line 19, in import_from_string
+agentic_ai-backend-1  |     module = importlib.import_module(module_str)
+agentic_ai-backend-1  |   File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+agentic_ai-backend-1  |     return _bootstrap._gcd_import(name[level:], package, level)
+agentic_ai-backend-1  |   File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+agentic_ai-backend-1  |   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+agentic_ai-backend-1  |   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+agentic_ai-backend-1  |   File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+agentic_ai-backend-1  |   File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+agentic_ai-backend-1  |   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+agentic_ai-backend-1  |   File "/app/main.py", line 186, in <module>
+agentic_ai-backend-1  |     rag_system = Rag_System(
+agentic_ai-backend-1  |   File "/app/rag_system.py", line 37, in __init__
+agentic_ai-backend-1  |     self._Vi_rag = VietnameseRAGAgent(
+agentic_ai-backend-1  |   File "/app/vi_rag_agent.py", line 94, in __init__
+agentic_ai-backend-1  |     self.initialize_index()
+agentic_ai-backend-1  |   File "/app/vi_rag_agent.py", line 305, in initialize_index
+agentic_ai-backend-1  |     raise ValueError("Không thể trích xuất được văn bản từ các file PDF trong thư mục.")
+agentic_ai-backend-1  | ValueError: Không thể trích xuất được văn bản từ các file PDF trong thư mục.
