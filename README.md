@@ -1,7 +1,7 @@
 
 =======
 # Multi-Agent-Financial-Analytics
->>>>>>> 934341924dabef866823aff8f9e1d5360ecd58d2
+
 
 ## 🔧 How to Run the Project
 
