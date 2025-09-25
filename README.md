@@ -48,8 +48,4 @@ docker compose up --build
 - `docker compose up`: Launches containers as defined in `docker-compose.yml`.
 - `--build`: Rebuilds the image if any changes have been made in the source code.
 
-<<<<<<< HEAD
-After executing this command, the application will start and be ready for use.
-=======
-After executing this command, the application will start and be ready for use.
->>>>>>> 934341924dabef866823aff8f9e1d5360ecd58d2
+
