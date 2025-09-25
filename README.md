@@ -1,6 +1,4 @@
 # Multi-Agent-Financial-Analytics
-# Agentic_AI
-Agentic AI
 
 ## 🔧 How to Run the Project
 
